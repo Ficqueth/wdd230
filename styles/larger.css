@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 640px) {
     main {
         display: grid;
         grid-template-columns: 2fr 1fr; /* Two columns, with Learning Activities card being twice as wide */
