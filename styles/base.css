@@ -26,20 +26,17 @@ header {
 }
 
 
+nav ul {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center the links */
+}
+
 nav {
     background-color: #36454f; /* Slightly darker than header */
     margin: 0 auto;
     max-width: 800px;
     width: 100%;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-around; /* Space out links evenly */
-    align-items: center; /* Align links vertically */
 }
 
 nav a {

@@ -13,4 +13,14 @@
     .card {
         margin-bottom: 20; /* Remove bottom margin for side-by-side layout */
     }
+
+    nav ul {
+        flex-direction: row; /* Display links in a horizontal row */
+        justify-content: space-around; /* Space out links evenly */
+    }
+
+    /* Optional: Adjust link padding for larger views */
+    nav a {
+        padding: 1rem 2rem;
+    }
 }
