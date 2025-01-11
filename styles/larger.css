@@ -11,7 +11,7 @@
     }
 
     .card {
-        margin-bottom: 20; /* Remove bottom margin for side-by-side layout */
+        margin-bottom: 20px; /* Remove bottom margin for side-by-side layout */
     }
 
     nav ul {

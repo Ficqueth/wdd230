@@ -1,7 +1,7 @@
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -34,7 +34,7 @@ nav ul {
 
 nav {
     background-color: #36454f; /* Slightly darker than header */
-    margin: 0 auto;
+    margin: 0px auto;
     max-width: 800px;
     width: 100%;
 }
