@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Two columns, with Learning Activities card being twice as wide */
+        gap: 20px; /* Space between columns */
+        grid-template-rows: auto auto;
+    }
+
+    h1 {
+        grid-column: span 2; /* Make h1 span both columns */
+    }
+
+    .card {
+        margin-bottom: 20; /* Remove bottom margin for side-by-side layout */
+    }
+}
