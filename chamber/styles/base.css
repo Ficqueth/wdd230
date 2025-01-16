@@ -81,7 +81,6 @@ nav a:hover {
 	content: "❌"; /* Close icon */
 }
 
-
 /* when the button is clicked - the open class is toggled (added/removed) */
 .open a {
 	display: block;
