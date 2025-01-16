@@ -1,0 +1,101 @@
+/* Styles for screens wider than 640px */
+@media screen and (min-width: 640px) {
+    
+    /* Main section layout: 2 columns (with the first column twice as wide) */
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Two columns: 2 parts for the main content, 1 part for the sidebar */
+        gap: 20px; /* Space between columns */
+        grid-template-rows: auto auto; /* Adjust row height to fit content */
+    }
+
+    /* Ensure h1 spans across both columns */
+    h1 {
+        grid-column: span 2; /* Makes the h1 span both columns */
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Adjust the size of h2 headers */
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    /* Card layout adjustments: remove margin on the bottom for side-by-side view */
+    .card {
+        margin-bottom: 0; /* Removes bottom margin for cards when in grid layout */
+    }
+
+    /* Navigation menu styles for wider screens */
+    nav ul {
+        display: flex; /* Use flexbox for navigation links */
+        flex-direction: row; /* Display links horizontally */
+        justify-content: space-around; /* Evenly space the links */
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    /* Style links in navigation */
+    nav a {
+        padding: 1rem 2rem; /* Increase the padding for better touch targets */
+    }
+
+    /* Hide the hamburger menu on larger screens */
+    #menu {
+        display: none;
+    }
+
+    /* Navigation layout changes */
+    .navigation {
+        display: flex;
+        flex-direction: row; /* Keep the navigation links in a row */
+    }
+
+    /* Style navigation links */
+    .navigation a {
+        display: block;
+        flex: 1 1 100%; /* Ensure links stretch across available space */
+    }
+
+    /* Make adjustments for other content blocks */
+    .stuff {
+        margin: 1rem auto; /* Center the content */
+    }
+
+    /* Card elements or sections with additional padding or borders can be styled */
+    .card, #weather, #spotlights {
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    /* Upcoming events and weather boxes */
+    #events, #weather {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Style for individual spotlight boxes */
+    .spotlight {
+        background-color: #f9f9f9;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        border-radius: 8px;
+        
+    }
+    #events, #spotlights {
+        width: 100%; /* Make both sections span the same width */
+        max-width: 600px; /* Optional: Set a maximum width for consistency */
+        margin: 0 auto; /* Center-align them if they aren't already */
+        padding: 20px; /* Ensure consistent padding */
+        background-color: #ffffff; /* Consistent background color */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Same shadow style */
+        border-radius: 8px; /* Same rounded corners */
+    }
+}

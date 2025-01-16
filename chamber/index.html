@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
     <title>Document</title>
-    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal by Helaman Ficquet.">
+    <meta name="description" content="WDD 230 - Chamber portal by Helaman Ficquet.">
     <meta name="author" content="Helaman Ficquet">
 
     <!-- Open Graph Meta Tags -->
@@ -17,6 +18,80 @@
     <meta property="og:url" content="https://ficqueth.github.io/wdd230/chamber">
 </head>
 <body>
-    
+    <header>
+        <h1>Jefferson City Chamber of Commerce</h1>
+        <nav class="navigation">
+            <button id="menu"></button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#directory">Directory</a></li>
+                <li><a href="#join">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <!-- Hero Image -->
+    <section id="hero">
+        <img src="https://media.istockphoto.com/id/1444852380/photo/missouri-state-capitol-building.jpg?s=612x612&w=0&k=20&c=iVpgnbf7eaHXbfqvM7TlpSNfuE57gzckirxQQD64jgk=" alt="Hero Image: Jefferson City" width="50%">
+        <h2>Welcome to the Jefferson City Chamber of Commerce</h2>
+        <p>Promoting local businesses and fostering community growth.</p>
+    </section>
+
+    <!-- Call-to-Action -->
+    <section id="call-to-action">
+        <h2>Join the Chamber of Commerce</h2>
+        <p>Become a member today and help grow our community.</p>
+        <a href="join.html" class="cta-button">Join Now</a>
+    </section>
+
+    <!-- Weather Card -->
+    <section id="weather">
+        <h2>Current Weather</h2>
+        <div class="box weather-card">
+            <p><strong>Jefferson City:</strong> 75°F, Sunny</p>
+            <p><strong>Wind:</strong> 5 mph</p>
+            <p><strong>Humidity:</strong> 60%</p>
+        </div>
+    </section>
+
+    <!-- Company Spotlights -->
+    <section id="spotlights">
+        <h2>Business Spotlights</h2>
+        <div class="box spotlight">
+            <h3>Local Bakery</h3>
+            <p>Try the best bread and pastries in town!</p>
+        </div>
+        <div class="box spotlight">
+            <h3>Jefferson Gym</h3>
+            <p>Stay fit and healthy with our state-of-the-art equipment.</p>
+        </div>
+        <div class="box spotlight">
+            <h3>City Coffee Shop</h3>
+            <p>Where great coffee meets a cozy atmosphere.</p>
+        </div>
+    </section>
+
+        <!-- Current Events -->
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <div class="box">
+                <ul>
+                    <li><strong>Business Networking Night:</strong> February 15th, 2025</li>
+                    <li><strong>Annual Business Expo:</strong> March 5th, 2025</li>
+                    <li><strong>Community Clean-Up Day:</strong> April 10th, 2025</li>
+                </ul>
+            </div>
+        </section>
+</main>
+
+<footer>
+    <p>Created by: Helaman Chrys Ficquet</p>
+    <p>Project for WDD 230 - Web Frontend Development</p>
+    <p>&copy; <span id="year"></span>2025 Jefferson City Chamber of Commerce</p>
+    <p id="lastModified"></p>
+</footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>

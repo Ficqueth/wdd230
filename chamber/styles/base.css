@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Three columns: empty left, centered content, empty right */
+    grid-template-rows: auto 1fr auto; /* Header, main content, and footer */
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    height: 100vh; /* Ensures the body takes up full viewport height */
+}
+
+/* Header styles */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    grid-area: header; /* Assign header to the grid */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #003366;
+    color: white;
+    margin: 20px auto; /* Space between nav and other sections */
+    max-width: 800px;
+    display: flex;
+    justify-content: center; /* Center the nav items */
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center the links */
+}
+
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none; /* Remove underline */
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #7daa48;
+}
+
+.navigation a {
+	display: none;
+}
+
+/* Menu button styles */
+#menu {
+    font-size: 1.5rem;
+    background: none;
+    color: #fff;
+    border: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰"; /* Hamburger icon */
+}
+
+#menu.open::before {
+	content: "❌"; /* Close icon */
+}
+
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+.active::before { 
+    content: "📍";  /* just a wayfinding symbol for the user */
+}
+
+/* Main content styles */
+main {
+    display: block;
+    padding: 20px;
+    grid-area: main; /* Assign the main content to the grid */
+    max-width: 960px; /* Optional: limits the width of the content */
+    margin: 0 auto; /* Centers content inside the main area */
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #7c8e63;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+#hero img {
+    width: 50%;
+    max-width: 100%; /* Ensures image is responsive */
+}
+
+/* Call-to-Action Button styles */
+#call-to-action {
+    text-align: center; /* Centers all content inside the section */
+    padding: 40px 20px;
+}
+
+#call-to-action h2 {
+    font-size: 2rem; /* Increase font size */
+    margin-bottom: 1rem; /* Space between heading and paragraph */
+    color: #333; /* Text color */
+}
+
+#call-to-action p {
+    font-size: 1.25rem; /* Slightly larger text for emphasis */
+    margin-bottom: 1.5rem; /* Space between text and button */
+    color: #555; /* Subtle text color */
+}
+
+.cta-button {
+    color: white;
+    background-color: #003366;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    opacity: 0.8;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    grid-area: footer; /* Assign footer to grid */
+}
+
+.box {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    background-color: white; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space between boxes */
+}
+
+/* Upcoming Events Box */
+#events .box {
+    background-color: #f9f9f9; /* Light gray background for events */
+
+}
+
+/* Current Weather Box */
+#weather .weather-card {
+    background-color: #e0f7fa; /* Light blue background for weather */
+    border: 1px solid #4caf50; /* Green border for weather */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points from lists */
+}
+
+
+
