@@ -182,5 +182,57 @@ ul {
     list-style-type: none; /* Remove bullet points from lists */
 }
 
+.map-container iframe {
+    width: 100%;   /* Makes the map width responsive */
+    max-width: 100%; /* Ensures the map doesn’t stretch beyond container */
+    height: 450px;  /* Set a default height, adjust as needed */
+    border: 0;      /* Removes the border */
+}
+
+.visits {
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Ensure sidebar is a flex container */
+    flex-direction: column; /* Stack sections vertically */
+}
+
+.sidebar .section {
+    padding: 10px;
+    background-color: #f4f4f4; /* Light background for each section */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow for sections */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar, .main-content {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main {
+    display: block;
+    width: 100%;
+}
+
 
 
