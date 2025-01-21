@@ -29,28 +29,36 @@ modeButton.addEventListener("click", () => {
     }
 });
 
-// Handle visit message
-const visitMessage = document.querySelector(".visit-message");
+// 1️⃣ Initialize display element variable for visits message
+const visitsDisplay = document.querySelector(".visit-message");
 
-// Get the stored visit time in localStorage
-let lastVisitDate = localStorage.getItem("lastVisit");
+// 2️⃣ Get the stored last visit timestamp from localStorage
+const lastVisitTimestamp = localStorage.getItem("lastVisitTimestamp");
 
-if (lastVisitDate) {
-    const now = new Date();
-    const lastVisit = new Date(lastVisitDate);
-    const diffTime = now - lastVisit;
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-
-    if (diffDays === 0) {
-        visitMessage.textContent = "Back so soon! Awesome!";
-    } else if (diffDays === 1) {
-        visitMessage.textContent = "You last visited 1 day ago.";
-    } else {
-        visitMessage.textContent = `You last visited ${diffDays} days ago.`;
-    }
+// 3️⃣ Check if there was a previous visit
+if (!lastVisitTimestamp) {
+    // First visit: Show the welcome message
+    visitsDisplay.textContent = "Welcome! Let us know if you have any questions.";
 } else {
-    visitMessage.textContent = "Welcome! Let us know if you have any questions.";
+    // Get the current timestamp and the stored last visit timestamp
+    const currentTimestamp = Date.now();
+    const lastVisit = parseInt(lastVisitTimestamp); // Convert string to integer
+
+    // Calculate the difference in milliseconds and convert to days
+    const msToDays = 86400000; // 1000 ms/s * 60 s/m * 60 m/h * 24 h/day
+    const timeDifference = Math.floor((currentTimestamp - lastVisit) / msToDays);
+
+    if (timeDifference === 0) {
+        // If the last visit was the same day
+        visitsDisplay.textContent = "Back so soon! Awesome!";
+    } else if (timeDifference === 1) {
+        // If the last visit was 1 day ago
+        visitsDisplay.textContent = "You last visited 1 day ago.";
+    } else {
+        // If the last visit was more than 1 day ago
+        visitsDisplay.textContent = `You last visited ${timeDifference} days ago.`;
+    }
 }
 
-// Store the current date as the last visit date
-localStorage.setItem("lastVisit", new Date().toString());
+// 4️⃣ Store the current timestamp in localStorage
+localStorage.setItem("lastVisitTimestamp", Date.now().toString());
