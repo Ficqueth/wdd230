@@ -54,7 +54,7 @@
 	}
 
     .photo-gallery img {
-        width: 00%;
+        width: 100%;
         height: auto;
         max-width: 100%;
     }
