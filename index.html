@@ -24,7 +24,7 @@
 </head>
 <body>
     <header>
-        <img src="images/helaman-profile.jpg" alt="Helaman Ficquet Profile" width="144" height="192">
+        <img src="images/helaman-profile.webp" alt="Helaman Ficquet Profile" width="144" height="192">
         <span class="student-name">Helaman Ficquet</span>
         <div id="mode">
             🕶️
@@ -40,6 +40,15 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/temple-mobile.webp" media="(max-width: 500px)">
+                <source srcset="images/temple-landscape.webp" media="(min-width: 501px)">
+                <img src="images/temple-landscape.webp" alt="Provo Temple" width="960" height="540" loading="lazy">
+            </picture>
+            <div class="herolabel">Provo Temple label</div>
+        </div>
+
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>

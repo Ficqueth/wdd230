@@ -40,6 +40,40 @@ header .student-name {
     text-align: left; 
 }
 
+.hero {
+    grid-column: 1 / -1; /* Make .hero span across all columns */
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 300px;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+	font-family:"Great Vibes", serif;
+}
+
 
 nav ul {
     display: flex;
@@ -91,11 +125,14 @@ main {
     max-width: 1200px; /* Limit width */
     margin: 0 auto; /* Center horizontally */
     padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
 }
+
 
 ul {
     list-style-type: none; /* Remove bullet points from lists */
 }
+
 
 /* small view navigation */
 #menu {
