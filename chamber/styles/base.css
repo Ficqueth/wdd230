@@ -38,15 +38,6 @@ nav {
     max-width: 800px;
     display: flex;
     justify-content: center; /* Center the nav items */
-    nav {
-        background-color: #003366;
-        color: white;
-        margin: 20px auto; /* Space between nav and other sectionvisit-messages */
-        max-width: 800px;
-        display: flex;
-        justify-content: center; /* Center the nav items */
-        grid-area: header; /* This will position the nav within the header section */
-    }
 }
 
 nav ul {
