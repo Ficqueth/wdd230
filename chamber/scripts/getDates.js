@@ -12,13 +12,28 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
+const modeButton = document.querySelector("#mode");
+const body = document.querySelector("body");
+
+modeButton.addEventListener("click", () => {
+	if (modeButton.textContent.includes("🕶️")) {
+		body.style.background = "#000";
+		body.style.color = "#fff";
+		modeButton.textContent = "🔆";
+	} else {
+		body.style.background = "#eee";
+		body.style.color = "#000";
+		modeButton.textContent = "🕶️";
+	}
+});
+
 // 1️⃣ Initialize display element variable for visits message
-const visitsDisplay = document.querySelector(".visits");
+const visitsDisplay = document.querySelector(".visit-message");
 
 // 2️⃣ Get the stored last visit timestamp from localStorage
 const lastVisitTimestamp = localStorage.getItem("lastVisitTimestamp");
 
-// 3️⃣ Check if there was a previous visit
+// 3️⃣ Check if there was a previous visitvisit-message
 if (!lastVisitTimestamp) {
     // First visit: Show the welcome message
     visitsDisplay.textContent = "Welcome! Let us know if you have any questions.";
