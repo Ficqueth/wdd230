@@ -184,6 +184,19 @@ ul {
 	content: "📍";  /* just a wayfinding symbol for the user */
 }
 
+.map-container iframe {
+    width: 100%;   /* Makes the map width responsive */
+    max-width: 100%; /* Ensures the map doesn’t stretch beyond container */
+    height: 450px;  /* Set a default height, adjust as needed */
+    border: 0;      /* Removes the border */
+}
+
+.visits {
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
+}
+
 
 
 
