@@ -13,7 +13,6 @@ nav .active {
 body {
     background-color: #f0f0f0; /* Light gray */
     color: #333; /* Dark gray text */
-
 }
 
 header {
@@ -195,6 +194,26 @@ ul {
     color: navy;
     font-weight: bolder;
     font-size: larger;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
 }
 
 

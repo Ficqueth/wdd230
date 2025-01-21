@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Helaman Ficquet - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal by Helaman Ficquet.">
+    <meta name="author" content="Helaman Ficquet">
+    
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Helaman Ficquet - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://render.fineartamerica.com/images/rendered/default/print/8/5.5/break/images/artworkimages/medium/3/corner-of-court-and-5th-street-fulton-missouri-larry-braun.jpg">
+    <meta property="og:url" content="https://ficqueth.github.io/wdd230/">
+
+</head>
+<body>
+    <header>
+        <img src="images/helaman-profile.webp" alt="Helaman Ficquet Profile" width="144" height="192">
+        <span class="student-name">Helaman Ficquet</span>
+        <div id="mode">
+            🕶️
+        </div>
+    </header>
+    <button type="button" id="menu"></button>
+    <nav>
+        <ul class="navigation">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="#site-plan">Site Plan</a></li>
+            <li><a href="#form">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="grid-container">
+            <aside class="sidebar">
+                <h2>Welcome Back</h2>
+                <p class="visit-message"></p>
+                <h3>Demographics</h3>
+                <p>Information about local demographics, attractions, or events.</p>
+            </aside>
+            <div class="main-content">
+                <h2>Local Photos of Interest</h2>
+                <div class="photo-gallery"></div>
+                    <img src="images/photo1.jpg" alt="Photo 1" loading="lazy" />
+                    <img src="images/photo2.jpg" alt="Photo 2" loading="lazy" />
+                    <img src="images/photo3.jpg" alt="Photo 3" loading="lazy" />
+                    <img src="images/photo4.jpg" alt="Photo 4" loading="lazy" />
+                    <img src="images/photo5.jpg" alt="Photo 5" loading="lazy" />
+                    <img src="images/photo6.jpg" alt="Photo 6" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Helaman Chrys Ficquet, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
