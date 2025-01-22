@@ -1,44 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
-    <title>Helaman Ficquet - Chamber of Commerce and Discover</title>
-    <meta name="description" content="Chamber Discover by Helaman Ficquet.">
+    <title>Chamber of Commerce of Jefferson City</title>
+    <meta name="description" content="WDD 230 - Chamber portal by Helaman Ficquet.">
     <meta name="author" content="Helaman Ficquet">
-    
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Helaman Ficquet - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://render.fineartamerica.com/images/rendered/default/print/8/5.5/break/images/artworkimages/medium/3/corner-of-court-and-5th-street-fulton-missouri-larry-braun.jpg">
-    <meta property="og:url" content="https://ficqueth.github.io/wdd230/">
-
+    <meta property="og:url" content="https://ficqueth.github.io/wdd230/chamber">
 </head>
 <body>
     <header>
-        <img src="images/helaman-profile.webp" alt="Helaman Ficquet Profile" width="144" height="192">
-        <span class="student-name">Helaman Ficquet</span>
-        <div id="mode">
-            🕶️
-        </div>
-    <button type="button" id="menu"></button>
-    <nav>
-        <ul class="navigation">
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="#site-plan">Site Plan</a></li>
-            <li><a href="#form">Form</a></li>
-        </ul>
-    </nav>
-</header>
+        <h1>Jefferson City Chamber of Commerce</h1>
+        <nav class="navigation">
+            <button id="menu"></button>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#directory">Directory</a></li>
+                <li><a href="#join">Join</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="grid-container">
             <aside class="sidebar">
@@ -72,11 +63,12 @@
             </div>
         </div>
     </main>
-
     <footer>
-        <p>&copy; <span id="year"></span> Helaman Chrys Ficquet, USA</p>
+        <p>Created by: Helaman Chrys Ficquet</p>
+        <p>Project for WDD 230 - Web Frontend Development</p>
+        <p>&copy; <span id="year"></span> Jefferson City Chamber of Commerce</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
-</body>
-</html>
+        <script src="scripts/getDates.js"></script>
+    </body>
+    </html>
