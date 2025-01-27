@@ -1,6 +1,6 @@
 :root {
-	--back: hsla(150, 50%, 30%, 1);
-  --back2: hsla(150, 50%, 30%, .5);
+	--back: rgb(90, 140, 164);
+  --back2: hsla(206, 55%, 62%, 0.5);
   --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);
 	--border: hsla(0,0%,20%,.8);
@@ -46,6 +46,6 @@ td {
 	text-align: center;
 }
 
-tbody tr:nth-child(odd) {
+tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
