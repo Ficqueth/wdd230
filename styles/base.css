@@ -15,8 +15,8 @@ body {
     color: #333; /* Dark gray text */
 }
 
-div .mode {
-    color:#ffffff;
+#mode {
+    color:#000;
 }
 
 header {
