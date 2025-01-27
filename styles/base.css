@@ -15,6 +15,10 @@ body {
     color: #333; /* Dark gray text */
 }
 
+div .mode {
+    color:#ffffff;
+}
+
 header {
     background-color: #555;
 	display: flex;
