@@ -1,0 +1,98 @@
+:root {
+    --form-font-family: 'Montserrat', sans-serif;
+    --form-bg-color: #f9f9f9;
+    --form-border-color: #ccc;
+    --form-focus-color: #007acc;
+}
+
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: var(--form-bg-color);
+    border: 1px solid var(--form-border-color);
+    border-radius: 8px;
+    font-family: var(--form-font-family);
+}
+
+form fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+form legend {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="range"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--form-border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+
+form input:focus {
+    outline: none;
+    border-color: var(--form-focus-color);
+    box-shadow: 0 0 4px var(--form-focus-color);
+}
+
+form input[type="submit"] {
+    background-color: var(--form-focus-color);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #005f99;
+}
+
+#formmessage {
+    color: red;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+#rangevalue {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+main {
+    display: flex; /* Change from grid to flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the main element fill the entire viewport */
+    padding: 1rem; /* Add some padding to avoid overflow on small screens */
+    box-sizing: border-box; /* Ensure padding is included in width/height calculations */
+}
+
+h1 {
+    margin-bottom: 1rem; /* Space below the heading */
+    margin-top: -10rem; /* Use a negative margin to move it higher */
+}
