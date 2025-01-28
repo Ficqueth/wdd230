@@ -92,7 +92,3 @@ main {
     box-sizing: border-box; /* Ensure padding is included in width/height calculations */
 }
 
-h1 {
-    margin-bottom: 1rem; /* Space below the heading */
-    margin-top: -10rem; /* Use a negative margin to move it higher */
-}
