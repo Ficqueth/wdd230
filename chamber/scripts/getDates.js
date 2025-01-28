@@ -45,3 +45,5 @@ if (!lastVisitTimestamp) {
 
 // 4️⃣ Store the current timestamp in localStorage
 localStorage.setItem("lastVisitTimestamp", Date.now().toString());
+
+document.getElementById('loadedtimestamp').value = new Date().toISOString();

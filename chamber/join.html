@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Chamber of Commerce of Jefferson City</title>
+    <meta name="description" content="WDD 230 - Chamber portal by Helaman Ficquet.">
+    <meta name="author" content="Helaman Ficquet">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Helaman Ficquet - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://render.fineartamerica.com/images/rendered/default/print/8/5.5/break/images/artworkimages/medium/3/corner-of-court-and-5th-street-fulton-missouri-larry-braun.jpg">
+    <meta property="og:url" content="https://ficqueth.github.io/wdd230/chamber">
+</head>
+<body>
+    <header>
+        <h1>Jefferson City Chamber of Commerce</h1>
+        <nav class="navigation">
+            <button id="menu"></button>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#directory">Directory</a></li>
+                <li><a href="#join">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <h1>Course Proposal Application</h1>
+    <div class="form-section">
+        <form method="get" action="thankyou.html" class="wf1">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label>Title or Position <input type="text" name="title" id="title" pattern="[A-Za-z\s-]{7,}"></label>
+                <label>Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone <input type="tel" name="phone" id="phone" placeholder="1235551234"></label>
+                <label>Business/Organization Name <input type="text" name="orgname" id="orgname"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership</legend>
+                <div>Membership Level</div>
+                <div>
+                    <label><input type="radio" name="membership" value="np"> NP Membership (Non-profit, no fee)</label>
+                    <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                    <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                </div>
+
+                <div>Business/Organization Description</div>
+                <label><textarea id="description" name="description"></textarea></label>
+                <label><input type="hidden" id="loadedtimestamp" name="loadedtimestamp"></label>
+                
+
+            </fieldset>
+
+            <input type="submit" value="Join the chamber of commerce">
+
+        </form>
+    </div>
+
+    <!-- Membership Benefits Section -->
+    <div class="table-container">
+        <h2>Membership Benefits</h2>
+        <table>
+            <caption>Table 1: Membership Level Benefits</caption>
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">NP</th>
+                    <th scope="col">Bronze</th>
+                    <th scope="col">Silver</th>
+                    <th scope="col">Gold</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Access to Community Events</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Networking Opportunities</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Spotlight Listing on Directory</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Discounts on Events and Trainings</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Exclusive Access to Training Sessions</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Featured Spot on Homepage</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Exclusive Event Invitations</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<footer>
+    <p>Created by: Helaman Chrys Ficquet</p>
+    <p>Project for WDD 230 - Web Frontend Development</p>
+    <p>&copy; <span id="year"></span> Jefferson City Chamber of Commerce</p>
+    <p id="lastModified"></p>
+</footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>

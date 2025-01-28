@@ -19,8 +19,9 @@
 
     /* Adjust the size of h2 headers */
     h2 {
-        font-size: 2rem;
-        text-align: center;
+        font-size: 1.5rem;
+        padding-bottom: 15px;
+
     }
 
     /* Card layout adjustments: remove margin on the bottom for side-by-side view */
@@ -156,4 +157,52 @@
         margin: 0 auto; /* Center the grid container */
         
     }
+
+    .wf1 input[type="submit"]
+{
+    border:none;
+    background-image: linear-gradient(#287eb3, #1c0bb2);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 530px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 3px 3px 6px #999;
+} 
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: auto; 
+    }
+    
+    table caption {
+        text-align: left;
+        font-weight: bold;
+    }
+
+    table th, table td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: center;
+        overflow-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    table th {
+        background-color: #003366;
+        color: #fff;
+    }
+
+    table td {
+        background-color: #f9f9f9;
+        
+    }
+
+    .table-container {
+        width: 100%;  /* Set benefits table width to 48% */
+        box-sizing: border-box;
+    }
+
 }
