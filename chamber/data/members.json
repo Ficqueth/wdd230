@@ -1,67 +1,67 @@
 {
     "members": [
       {
-        "companyName": "Tech Innovators LLC",
-        "address": "123 Innovation Drive, Jefferson City, MO",
-        "phone": "(123) 456-7890",
-        "website": "https://techinnovators.com",
-        "image": "tech-innovators.jpg",
+        "companyName": "ABC17 & FOX22C",
+        "address": "501 Business Loop 70 East, Columbia, MO 65201",
+        "phone": "(678) 294-0572",
+        "website": "https://abc17news.com/",
+        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_237,w_526,x_0,y_0/f_auto/q_auto:best/v1699549611/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/085ec63aea424ae594f3dcd76c0504b0/KMIZ-logo.jpg",
         "membershipLevel": "Deluxe",
-        "email": "contact@techinnovators.com"
+        "email": "news@kmiz.com"
       },
       {
-        "companyName": "Green Solutions Inc.",
-        "address": "456 Greenway Blvd, Jefferson City, MO",
-        "phone": "(234) 567-8901",
-        "website": "https://greensolutions.com",
-        "image": "green-solutions.jpg",
+        "companyName": "Blue Fish Screen Printing & Design, LLC",
+        "address": "706 South Bishop Avenue Ste. C,Rolla,MO,65401",
+        "phone": "(573) 426-3232",
+        "website": "http://www.thumbsupfish.com/",
+        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_1486,w_1612,x_0,y_0/f_auto/q_auto:best/v1686862131/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/41d8b5bb23df4d058fb6f61daa546615/Blue-Fish-Screen-Printing-Design.png",
         "membershipLevel": "Premium",
-        "email": "info@greensolutions.com"
+        "email": "sales@thumbsupfish.com"
       },
       {
-        "companyName": "Creative Designs Studio",
-        "address": "789 Creative Ave, Jefferson City, MO",
-        "phone": "(345) 678-9012",
-        "website": "https://creativedesigns.com",
-        "image": "creative-designs.jpg",
+        "companyName": "Jefferson City Magazine",
+        "address": "609 E. High St.,Jefferson City,MO,65101",
+        "phone": "(573) 693-0042",
+        "website": "http://www.jeffersoncitymag.com/",
+        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_104,w_210,x_0,y_0/f_auto/q_auto:best/v1700596198/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/06f7e13d2a60415d886316dfb409d7dc/Jefferson-City-Magazine.jpg",
         "membershipLevel": "Basic",
-        "email": "support@creativedesigns.com"
+        "email": "quinn@jeffersoncitymag.com"
       },
       {
-        "companyName": "Eco Builders Ltd.",
+        "companyName": "512 E. Capitol Ave.,Jefferson City,MO,65101",
         "address": "101 Green Construction Rd, Jefferson City, MO",
-        "phone": "(456) 789-0123",
-        "website": "https://ecobuilders.com",
-        "image": "eco-builders.jpg",
+        "phone": "(573) 635-3265",
+        "website": "https://communiqueinc.com/",
+        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_114,w_441,x_0,y_0/f_auto/q_auto:best/v1699996629/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/d860ac7bfe804e86a92cdd6c5911fa18/Communique-Inc.png",
         "membershipLevel": "Deluxe",
-        "email": "sales@ecobuilders.com"
+        "email": "info@communiqueinc.com"
       },
       {
-        "companyName": "FutureTech Enterprises",
-        "address": "202 Future St, Jefferson City, MO",
-        "phone": "(567) 890-1234",
-        "website": "https://futuretech.com",
-        "image": "futuretech.jpg",
+        "companyName": "Callabyte Technology, LLC",
+        "address": "1313 Cooperative Dr.,Fulton,MO,65251",
+        "phone": "(573) 826-2371",
+        "website": "http://www.callabyte.com/",
+        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_1536,w_1536,x_0,y_0/f_auto/q_auto:best/v1699567650/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/cf2ed45297cf4382be2d997c267e2f87/Callabyte-Technology.jpg",
         "membershipLevel": "Premium",
-        "email": "contact@futuretech.com"
+        "email": "info@callabyte.com"
       },
       {
-        "companyName": "Urban Eats Catering",
-        "address": "303 Urban Plaza, Jefferson City, MO",
-        "phone": "(678) 901-2345",
-        "website": "https://urbaneats.com",
-        "image": "urban-eats.jpg",
+        "companyName": "Cajun Catfish House - Food Truck",
+        "address": "1410 Boss Terrace Dr.,Jefferson City,MO,65109",
+        "phone": "(573) 469-5969",
+        "website": "https://www.facebook.com/CajunCatfishHouse",
+        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_1079,w_1079,x_0,y_0/f_auto/q_auto:best/v1687292827/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/e393223852a645f980fb528770a3eb79/327331352-2084833398381073-6110837535048921894-n.png",
         "membershipLevel": "Basic",
-        "email": "info@urbaneats.com"
+        "email": "info@cajun.com"
       },
       {
-        "companyName": "Skyline Ventures",
-        "address": "404 Skyline Rd, Jefferson City, MO",
-        "phone": "(789) 012-3456",
-        "website": "https://skylineventures.com",
-        "image": "skyline-ventures.jpg",
+        "companyName": "All-n-One Outdoor Solutions",
+        "address": "5308 Monticello Rd.,Jefferson City,MO,65109",
+        "phone": "(573) 636-5642",
+        "website": "http://www.allnoneoutdoor.com/",
+        "image": "/Users/helafic/code/personal/pathway/wdd230/chamber/images/All-N-One-Outdoor-Solutions.webp",
         "membershipLevel": "Premium",
-        "email": "contact@skylineventures.com"
+        "email": "contact@allinone.com"
       }
     ]
   }
