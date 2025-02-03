@@ -1,0 +1,73 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Plan for chamber website"
+                },
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "media-query learning"
+                }
+            ],
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/bom.html",
+                    "title": "BOM learning activity"
+                },
+                {
+                    "url": "week02/design.html",
+                    "title": "Design Principles"
+                }
+            ],
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/bom.html",
+                    "title": "BOM Learning activity"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy load"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Lazy load"
+                }
+            ],
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "week04/index.html",
+                    "title": "Course Proposal Application"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "ACME Wildwest Services"
+                },
+                {
+                    "url": "week04/thanks.html",
+                    "title": "Thank you page"
+                }
+            ],
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Modern Prophets page"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Open Weather Map"
+                }
+            ]
+        }
+    ]
+}
