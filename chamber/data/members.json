@@ -5,7 +5,7 @@
         "address": "501 Business Loop 70 East, Columbia, MO 65201",
         "phone": "(678) 294-0572",
         "website": "https://abc17news.com/",
-        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_237,w_526,x_0,y_0/f_auto/q_auto:best/v1699549611/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/085ec63aea424ae594f3dcd76c0504b0/KMIZ-logo.jpg",
+        "image": "KMIZ-logo.webp",
         "membershipLevel": "Deluxe",
         "email": "news@kmiz.com"
       },
@@ -14,7 +14,7 @@
         "address": "706 South Bishop Avenue Ste. C,Rolla,MO,65401",
         "phone": "(573) 426-3232",
         "website": "http://www.thumbsupfish.com/",
-        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_1486,w_1612,x_0,y_0/f_auto/q_auto:best/v1686862131/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/41d8b5bb23df4d058fb6f61daa546615/Blue-Fish-Screen-Printing-Design.png",
+        "image": "Blue-Fish-Screen-Printing-Design.webp",
         "membershipLevel": "Premium",
         "email": "sales@thumbsupfish.com"
       },
@@ -23,7 +23,7 @@
         "address": "609 E. High St.,Jefferson City,MO,65101",
         "phone": "(573) 693-0042",
         "website": "http://www.jeffersoncitymag.com/",
-        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_104,w_210,x_0,y_0/f_auto/q_auto:best/v1700596198/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/06f7e13d2a60415d886316dfb409d7dc/Jefferson-City-Magazine.jpg",
+        "image": "Jefferson-City-Magazine.webp",
         "membershipLevel": "Basic",
         "email": "quinn@jeffersoncitymag.com"
       },
@@ -32,7 +32,7 @@
         "address": "101 Green Construction Rd, Jefferson City, MO",
         "phone": "(573) 635-3265",
         "website": "https://communiqueinc.com/",
-        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_114,w_441,x_0,y_0/f_auto/q_auto:best/v1699996629/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/d860ac7bfe804e86a92cdd6c5911fa18/Communique-Inc.png",
+        "image": "Communique-Inc.webp",
         "membershipLevel": "Deluxe",
         "email": "info@communiqueinc.com"
       },
@@ -41,7 +41,7 @@
         "address": "1313 Cooperative Dr.,Fulton,MO,65251",
         "phone": "(573) 826-2371",
         "website": "http://www.callabyte.com/",
-        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_1536,w_1536,x_0,y_0/f_auto/q_auto:best/v1699567650/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/cf2ed45297cf4382be2d997c267e2f87/Callabyte-Technology.jpg",
+        "image": "Callabyte-Technology.webp",
         "membershipLevel": "Premium",
         "email": "info@callabyte.com"
       },
@@ -50,7 +50,7 @@
         "address": "1410 Boss Terrace Dr.,Jefferson City,MO,65109",
         "phone": "(573) 469-5969",
         "website": "https://www.facebook.com/CajunCatfishHouse",
-        "image": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_1079,w_1079,x_0,y_0/f_auto/q_auto:best/v1687292827/tenants/d73a78ae-70dc-4de9-908b-7adece9be990/e393223852a645f980fb528770a3eb79/327331352-2084833398381073-6110837535048921894-n.png",
+        "image": "cajun.webp",
         "membershipLevel": "Basic",
         "email": "info@cajun.com"
       },
