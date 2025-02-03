@@ -229,7 +229,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
-        align-items: left;
+        align-items: center;
         text-align: left;
     }
 
@@ -252,7 +252,6 @@
 
     .grid img {
         border: none;
-        box-shadow: 0 0 ;
     }
 
     .grid section {
