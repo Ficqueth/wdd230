@@ -325,7 +325,7 @@ textarea {
 
 table caption {
     text-align: left;
-        font-weight: bold;
+    font-weight: bold;
 }
 
 table th, table td {
@@ -358,19 +358,19 @@ section {
 }
 
 .grid {
-	display: grid;
+	display: block;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
 }
 
 .grid section {
-	text-align: center;
+	text-align: left;
 }
 
 .grid img {
-	border: 1px solid #fff;
-	box-shadow: 0 0 10px #333;
+	border: none;
+	box-shadow: 0;
 }
 
 .grid section > * {
@@ -387,7 +387,7 @@ section {
 }
 
 .list section {
-	display: grid;
+
 	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
@@ -449,4 +449,5 @@ main .menu {
     justify-content: center; /* Horizontally center the buttons */
     gap: 20px; /* Optional: space between buttons */
     margin-bottom: 20px; /* Optional: add some space below the buttons */
+    margin: 1rem auto;
 }
