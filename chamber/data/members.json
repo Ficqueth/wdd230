@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "companyName": "Tech Innovators LLC",
+        "address": "123 Innovation Drive, Jefferson City, MO",
+        "phone": "(123) 456-7890",
+        "website": "https://techinnovators.com",
+        "image": "tech-innovators.jpg",
+        "membershipLevel": "Deluxe",
+        "email": "contact@techinnovators.com"
+      },
+      {
+        "companyName": "Green Solutions Inc.",
+        "address": "456 Greenway Blvd, Jefferson City, MO",
+        "phone": "(234) 567-8901",
+        "website": "https://greensolutions.com",
+        "image": "green-solutions.jpg",
+        "membershipLevel": "Premium",
+        "email": "info@greensolutions.com"
+      },
+      {
+        "companyName": "Creative Designs Studio",
+        "address": "789 Creative Ave, Jefferson City, MO",
+        "phone": "(345) 678-9012",
+        "website": "https://creativedesigns.com",
+        "image": "creative-designs.jpg",
+        "membershipLevel": "Basic",
+        "email": "support@creativedesigns.com"
+      },
+      {
+        "companyName": "Eco Builders Ltd.",
+        "address": "101 Green Construction Rd, Jefferson City, MO",
+        "phone": "(456) 789-0123",
+        "website": "https://ecobuilders.com",
+        "image": "eco-builders.jpg",
+        "membershipLevel": "Deluxe",
+        "email": "sales@ecobuilders.com"
+      },
+      {
+        "companyName": "FutureTech Enterprises",
+        "address": "202 Future St, Jefferson City, MO",
+        "phone": "(567) 890-1234",
+        "website": "https://futuretech.com",
+        "image": "futuretech.jpg",
+        "membershipLevel": "Premium",
+        "email": "contact@futuretech.com"
+      },
+      {
+        "companyName": "Urban Eats Catering",
+        "address": "303 Urban Plaza, Jefferson City, MO",
+        "phone": "(678) 901-2345",
+        "website": "https://urbaneats.com",
+        "image": "urban-eats.jpg",
+        "membershipLevel": "Basic",
+        "email": "info@urbaneats.com"
+      },
+      {
+        "companyName": "Skyline Ventures",
+        "address": "404 Skyline Rd, Jefferson City, MO",
+        "phone": "(789) 012-3456",
+        "website": "https://skylineventures.com",
+        "image": "skyline-ventures.jpg",
+        "membershipLevel": "Premium",
+        "email": "contact@skylineventures.com"
+      }
+    ]
+  }
+  
