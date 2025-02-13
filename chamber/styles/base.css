@@ -457,3 +457,31 @@ main .menu {
     border: 1px solid #ccc;
     background-color: #f9f9f9;
 }
+
+/* Meet and Greet Banner */
+.banner {
+    display: none; /* Hidden by default */
+    background-color: #004a99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.banner button {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.banner button:hover {
+    background: darkred;
+}
