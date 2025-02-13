@@ -450,3 +450,10 @@ main .menu {
     margin-bottom: 20px; /* Optional: add some space below the buttons */
     margin: 1rem auto;
 }
+
+.weather-card {
+    display: block;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
