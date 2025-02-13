@@ -1,9 +1,9 @@
-const url2 = 'https://ficqueth.github.io/wdd230/chamber/data/members.json';
+const memberslink = 'https://ficqueth.github.io/wdd230/chamber/data/members.json';
 
 const spotlightContainer = document.querySelector('#spotlights');  // The section where spotlights will be displayed
 
 async function getSpotlightMembers() {
-    const response = await fetch(url2);
+    const response = await fetch(memberslink);
     const data = await response.json();
     displaySpotlights(data.members);
 }
@@ -23,6 +23,13 @@ const displaySpotlights = (members) => {
         let spotlightDiv = document.createElement('div');
         spotlightDiv.classList.add('spotlight'); // Add class for styling
 
+        let logo = document.createElement('img');
+        logo.setAttribute('src', `images/${member.image}`); // Update with your image path
+        logo.setAttribute('alt', `Logo of ${member.companyName}`);
+        logo.setAttribute('loading', 'lazy');
+        logo.setAttribute('width', '200');
+        logo.setAttribute('height', '200');
+
         let companyName = document.createElement('h3');
         let description = document.createElement('p');
         let website = document.createElement('a');
@@ -35,6 +42,7 @@ const displaySpotlights = (members) => {
         website.target = "_blank";
 
         // Append elements
+        spotlightDiv.appendChild(logo);
         spotlightDiv.appendChild(companyName);
         spotlightDiv.appendChild(description);
         spotlightDiv.appendChild(website);
