@@ -9,9 +9,9 @@ async function getSpotlightMembers() {
 }
 
 const displaySpotlights = (members) => {
-    // Filter only "Premium" and "Deluxe" members
+    // Filter only "Silver" and "Gold" members
     const eligibleMembers = members.filter(member =>
-        member.membershipLevel === "Premium" || member.membershipLevel === "Deluxe"
+        member.membershipLevel === "Silver" || member.membershipLevel === "Gold"
     );
 
     // Shuffle and select up to 3 random members

@@ -6,7 +6,7 @@
         "phone": "(678) 294-0572",
         "website": "https://abc17news.com/",
         "image": "KMIZ-logo.webp",
-        "membershipLevel": "Deluxe",
+        "membershipLevel": "Silver",
         "email": "news@kmiz.com"
       },
       {
@@ -15,7 +15,7 @@
         "phone": "(573) 426-3232",
         "website": "http://www.thumbsupfish.com/",
         "image": "Blue-Fish-Screen-Printing-Design.webp",
-        "membershipLevel": "Premium",
+        "membershipLevel": "Gold",
         "email": "sales@thumbsupfish.com"
       },
       {
@@ -24,7 +24,7 @@
         "phone": "(573) 693-0042",
         "website": "http://www.jeffersoncitymag.com/",
         "image": "Jefferson-City-Magazine.webp",
-        "membershipLevel": "Basic",
+        "membershipLevel": "Silver",
         "email": "quinn@jeffersoncitymag.com"
       },
       {
@@ -33,7 +33,7 @@
         "phone": "(573) 635-3265",
         "website": "https://communiqueinc.com/",
         "image": "Communique-Inc.webp",
-        "membershipLevel": "Deluxe",
+        "membershipLevel": "Bronze",
         "email": "info@communiqueinc.com"
       },
       {
@@ -42,7 +42,7 @@
         "phone": "(573) 826-2371",
         "website": "http://www.callabyte.com/",
         "image": "Callabyte-Technology.webp",
-        "membershipLevel": "Premium",
+        "membershipLevel": "Silver",
         "email": "info@callabyte.com"
       },
       {
@@ -51,7 +51,7 @@
         "phone": "(573) 469-5969",
         "website": "https://www.facebook.com/CajunCatfishHouse",
         "image": "cajun.webp",
-        "membershipLevel": "Basic",
+        "membershipLevel": "NP",
         "email": "info@cajun.com"
       },
       {
@@ -60,7 +60,7 @@
         "phone": "(573) 636-5642",
         "website": "http://www.allnoneoutdoor.com/",
         "image": "All-N-One-Outdoor-Solutions.webp",
-        "membershipLevel": "Premium",
+        "membershipLevel": "Gold",
         "email": "contact@allinone.com"
       }
     ]
