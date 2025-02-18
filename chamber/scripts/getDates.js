@@ -47,8 +47,6 @@ if (visitsDisplay) {
 
     // 4️⃣ Store the current timestamp in localStorage
     localStorage.setItem("lastVisitTimestamp", Date.now().toString());
-} else {
-    console.error("Element with class 'visit-message' not found!");
- }
+} 
 
 document.getElementById('loadedtimestamp').value = new Date().toISOString();
